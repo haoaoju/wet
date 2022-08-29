@@ -4,8 +4,6 @@ from smtplib import SMTP_SSL                    # SSL加密的   传输协议
 from email.mime.text import MIMEText            # 构建邮件文本
 from email.mime.multipart import MIMEMultipart  # 构建邮件体
 from email.header import Header                 # 发送内容
-import schedule
-import time
 
 
 urls = "http://wsjkw.shandong.gov.cn/ztzl/rdzt/qlzhxxgzbdfyyqfkgz/tzgg/"
